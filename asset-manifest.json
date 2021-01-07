@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/streamy/static/js/main.1e459ebb.chunk.js",
-    "main.js.map": "/streamy/static/js/main.1e459ebb.chunk.js.map",
-    "runtime-main.js": "/streamy/static/js/runtime-main.67d001fe.js",
-    "runtime-main.js.map": "/streamy/static/js/runtime-main.67d001fe.js.map",
-    "static/js/2.41502c6f.chunk.js": "/streamy/static/js/2.41502c6f.chunk.js",
-    "static/js/2.41502c6f.chunk.js.map": "/streamy/static/js/2.41502c6f.chunk.js.map",
+    "main.js": "/streamy/static/js/main.52d4255e.chunk.js",
+    "main.js.map": "/streamy/static/js/main.52d4255e.chunk.js.map",
+    "runtime-main.js": "/streamy/static/js/runtime-main.de2868f8.js",
+    "runtime-main.js.map": "/streamy/static/js/runtime-main.de2868f8.js.map",
+    "static/js/2.5bdef815.chunk.js": "/streamy/static/js/2.5bdef815.chunk.js",
+    "static/js/2.5bdef815.chunk.js.map": "/streamy/static/js/2.5bdef815.chunk.js.map",
     "index.html": "/streamy/index.html",
-    "static/js/2.41502c6f.chunk.js.LICENSE.txt": "/streamy/static/js/2.41502c6f.chunk.js.LICENSE.txt"
+    "static/js/2.5bdef815.chunk.js.LICENSE.txt": "/streamy/static/js/2.5bdef815.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.67d001fe.js",
-    "static/js/2.41502c6f.chunk.js",
-    "static/js/main.1e459ebb.chunk.js"
+    "static/js/runtime-main.de2868f8.js",
+    "static/js/2.5bdef815.chunk.js",
+    "static/js/main.52d4255e.chunk.js"
   ]
 }
