@@ -1,6 +1,6 @@
 {
   "homepage": "http://sinduap.github.io/streamy",
-  "name": "streamy",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
