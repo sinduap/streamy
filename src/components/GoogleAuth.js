@@ -4,19 +4,23 @@ import { signIn, signOut } from '../actions';
 
 class GoogleAuth extends Component {
   componentDidMount() {
-    window.gapi.load('client:auth2', () => {
-      window.gapi.client
-        .init({
-          clientId:
-            '1063489332108-l2ciheqvsh4atbgts2hr3g66c6ssacs9.apps.googleusercontent.com',
-          scope: 'email',
-        })
-        .then(() => {
-          this.auth = window.gapi.auth2.getAuthInstance();
-          this.onAuthChange(this.auth.isSignedIn.get());
-          this.auth.isSignedIn.listen(this.onAuthChange);
-        });
-    });
+    try {
+      window.gapi.load('client:auth2', () => {
+        window.gapi.client
+          .init({
+            clientId:
+              '1063489332108-l2ciheqvsh4atbgts2hr3g66c6ssacs9.apps.googleusercontent.com',
+            scope: 'email',
+          })
+          .then(() => {
+            this.auth = window.gapi.auth2.getAuthInstance();
+            this.onAuthChange(this.auth.isSignedIn.get());
+            this.auth.isSignedIn.listen(this.onAuthChange);
+          });
+      });
+    } catch (err) {
+      console.log(err);
+    }
   }
 
   onAuthChange = isSignedIn => {
